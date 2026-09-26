@@ -1,213 +1,240 @@
-{
-  "name": "𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃",
-  "description": "Javascript WhatsApp bot made by 𝙳̷𝚊̷𝚛̷𝚔̷-𝙳̷𝙴̷𝚟̷🩸",
-  "logo": "https://files.catbox.moe/zmhz85.jpg",
-  "keywords": ["𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃"],
-  "success_url": "/",
-
-    "stack": "container",
-  "env": {
-    "SESSION_ID": {
-      "description": "Put the session-id here.",
-      "required": true,
-      "value": ""
-    },  
-    
-    "STICKER_NAME": {
-      "description": "type your sticker pack name.",
-      "required": false,
-      "value": "𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃"
-    }, 
-      
-    "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
-      "required": false,
-      "value": "."
+[
+    {
+        "name": "ps_l",
+        "value": "1",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "lax",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1815510943.707,
+        "storeId": null
     },
-    
-    "MODE": {
-      "description": "select your bot work type public-private-inbox-group.",
-      "required": false,
-      "value": "public"
-      
+    {
+        "name": "datr",
+        "value": "3iUjatqbyGts2E8t0CqKUohs",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1825024794.236,
+        "storeId": null
     },
-
-     "ANTI_DELETE": {
-      "description": "set true for show deleted messages.",
-      "required": false,
-      "value": "true"  
+    {
+        "name": "fr",
+        "value": "0OfrZPE64xUtZqhI5.AWeJfosvi146Dn33rUF8AGAjG4fD5VbFhCU0LdpksXc8DMJCOKE.BqKhyp..AAA.0.0.BquFR2.AWfgVCQDNTRelPohXRr3lCGiZuA",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1798241181.921,
+        "storeId": null
     },
-    
-    "ALWAYS_ONLINE": {
-      "description": "Make it true if want always online.",
-      "required": false,
-      "value": "false"  
-    },    
-   
-    "AUTO_REPLY": {
-      "description": "Make it true if you want automatic reply.",
-      "required": false,
-      "value": "false"
-    }, 
-
-    "AUTO_STICKER": {
-      "description": "Make it true if you want automatic sticker.",
-      "required": false,
-      "value": "false"
-    }, 
-
-
-    "AUTO_STATUS_SEEN": {
-      "description": "Make it true for automatic status seen.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "AUTO_STATUS_REACT": {
-      "description": "make it true for automatic status reaction or like.",
-      "required": true,
-      "value": "true"
-    }, 
-
-    "AUTO_STATUS_REPLY": {
-      "description": "Make it true for auto reply msg on status seen.",
-      "required": true,
-      "value": "false"
-    }, 
-
-    "AUTO_STATUS_MSG": {
-      "description": "Type custom message on status reply",
-      "required": true,
-      "value": "*SEEN YOUR STATUS BY 𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃*"
-   
-     }, 
-    
-    "OWNER_NAME": {
-      "description": "Type Bot Owner Name.",
-      "required": false,
-      "value": "𝙳̷𝚊̷𝚛̷𝚔̷-𝙳̷𝙴̷𝚟̷🩸"
-}, 
-
-    "OWNER_NUMBER": {
-      "description": "put the owner number for bot.",
-      "required": false,
-      "value": "2260358XXXX"
-
-    }, 
-
-    "BOT_NAME": {
-      "description": "Type here the bot name.",
-      "required": false,
-      "value": "𝐒𝐏𝐈𝐑𝐈𝐓𝐘-𝐗𝐌𝐃"
-
-      }, 
-
-    "ANTI_LINK": {
-      "description": "Make it true if you want bot auto remove group link.",
-      "required": true,
-      "value": "true"
-      
+    {
+        "name": "vpd",
+        "value": "v1%3B652x378x2.857142857142857",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "lax",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1795649182,
+        "storeId": null
     },
-
-     "ANTI_LINK_KICK": {
-      "description": "Make it true if you want bot auto remove group link.",
-      "required": true,
-      "value": "false"
-      
+    {
+        "name": "xs",
+        "value": "29%3AW1Zcok2obqB-Dw%3A2%3A1790464772%3A-1%3A-1",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1822000813.211,
+        "storeId": null
     },
-    
-    "ANTI_BAD": {
-      "description": "Make it true if you want bot auto delete bad words.",
-      "required": false,
-      "value": "false"
+    {
+        "name": "fbl_st",
+        "value": "101016990%3BT%3A29841086",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "strict",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1822001182,
+        "storeId": null
     },
-
-   "MENTION_REPLY": {
-      "description": "make it true if want mention reply if someone menetion you.",
-      "required": false,
-      "value": "false"
+    {
+        "name": "locale",
+        "value": "fr_FR",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1790713335.488,
+        "storeId": null
     },
-    
-    "MENU_IMAGE_URL": {
-      "description": "add url for mention reply and menu if want.",
-      "required": false,
-      "value": "https://files.catbox.moe/0i65sy.png"
+    {
+        "name": "m_pixel_ratio",
+        "value": "1",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": null,
+        "session": true,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "storeId": null
     },
-    
-     "DESCRIPTION": {
-      "description": "add caption for menu and other",
-      "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙳̷𝚊̷𝚛̷𝚔̷-𝙳̷𝙴̷𝚟̷🩸*"
+    {
+        "name": "c_user",
+        "value": "61590606351649",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1822000813.211,
+        "storeId": null
     },
-
-      "DELETE_LINKS": {
-      "description": "remove links from group automatically without removing member",
-      "required": false,
-      "value": "false"
+    {
+        "name": "dpr",
+        "value": "2.857142857142857",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1783817066,
+        "storeId": null
     },
-    
-    "AUTO_RECORDING": {
-      "description": "Make it true if you want auto recoding.",
-      "required": false,
-      "value": "false"
+    {
+        "name": "oo",
+        "value": "v1",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1815704742.503,
+        "storeId": null
     },
-
-    "AUTO_TYPING": {
-      "description": "Make it true if you want auto typing.",
-      "required": false,
-      "value": "false"
+    {
+        "name": "pas",
+        "value": "61590606351649%3ACFHeVXgiSN%2C61570873928035%3A8uIZsmgnes%2C61589259733296%3Ass3g9ubcHg%2C61590127666056%3AV2hkiS3vnl%2C61590274061528%3AxBGXuvLBsh",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "lax",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1825025181.921,
+        "storeId": null
     },
-
-    "AUTO_REACT": {
-      "description": "Make it true if you want react on every message.",
-      "required": false,
-      "value": "false"
+    {
+        "name": "ps_n",
+        "value": "1",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1815510943.707,
+        "storeId": null
     },
-    
-    "CUSTOM_REACT": {
-      "description": "Make it true if you want custom reactions.",
-      "required": false,
-      "value": "false"
-      
-    }, 
-    
-    "CUSTOM_REACT_EMOJIS": {
-      "description": "put here custom react react emojis.",
-      "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
-    }, 
-    
-    "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat othwise inbox",
-      "required": false,
-      "value": "inbox"
-    }, 
-
-    "ADMIN_EVENTS": {
-      "description": "make it true if want know who promote or demote a member .",
-      "required": false,
-      "value": "false"
+    {
+        "name": "sb",
+        "value": "3yUjag4zQJ5cfkaWMZGNvXxA",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1825024813.211,
+        "storeId": null
     },
-
-    "WELCOME": {
-      "description": "make it true if want goodbye and welcome message in groups.",
-      "required": false,
-      "value": "true"
+    {
+        "name": "wd",
+        "value": "378x777",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": null,
+        "session": true,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "storeId": null
     },
-
-    "READ_MESSAGE": {
-      "description": "Make it true if you want bot read your all sms just now.",
-      "required": false,
-      "value": "false"
+    {
+        "name": "wl_cbv",
+        "value": "v2%3Bclient_version%3A3303%3Btimestamp%3A1790465142",
+        "domain": ".facebook.com",
+        "hostOnly": false,
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "session": false,
+        "firstPartyDomain": "",
+        "partitionKey": null,
+        "expirationDate": 1798241182,
+        "storeId": null
     }
-
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
-  "stack": "heroku-24"
-}
-  
+]
